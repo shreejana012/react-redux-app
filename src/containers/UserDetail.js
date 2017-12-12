@@ -3,11 +3,14 @@ import {connect} from 'react-redux';
 
 class UserDetail extends Component {
     render(){
+        if(!this.props.user){
+            return(<div>Select a user</div>);
+        }
         return(
             <div>
-                User FirstName:{this.props.user.first}
-                User LastName:{this.props.user.last}
-                User Age:{this.props.user.age}
+                User First Name: {this.props.user.first}
+                User Last Name: {this.props.user.last}
+                User Age: {this.props.user.age}
             </div>
         );
     }

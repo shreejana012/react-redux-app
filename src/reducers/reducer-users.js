@@ -3,21 +3,21 @@ export default function () {
         {
             id: 1,
             first: "shrijana",
-            last: "poudel",
+            last: "Poudel",
             age: 20
         },
         {
             id: 2,
-            first: "shri",
-            last: "poudel",
-            age: 21 
+            first: "Saraswati",
+            last: "Saud",
+            age: 23
             
         },
         {
             id: 3,
-            first: "jana",
-            last: "poudel",
-            age: 23
+            first: "Ram",
+            last: "Sharma",
+            age: 21
         }
     ]
 

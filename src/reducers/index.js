@@ -3,7 +3,7 @@ import UserReducer from './reducer-users';
 import ActiveUserReducer from './reducer-active-user';
 
 const AllReducers = combineReducers({
-    user: UserReducer,
+    users: UserReducer,
     activeUser: ActiveUserReducer
 });
 export default AllReducers;
